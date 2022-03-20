@@ -1,0 +1,22 @@
+{
+  "name": "commland-dielectric-js-sdk-example",
+  "displayName": "CommlandDielectricJsSdk Example",
+  "expo": {
+    "name": "commland-dielectric-js-sdk-example",
+    "slug": "commland-dielectric-js-sdk-example",
+    "description": "Example app for commland-dielectric-js-sdk",
+    "privacy": "public",
+    "version": "1.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
