@@ -12,7 +12,7 @@
   </p>
   <p>
 
-[![NPM version](https://img.shields.io/npm/v/@2600hz/commland-dielectric-js-sdk?style=flat-square)](https://img.shields.io/npm/v/@2600hz/commland-dielectric-js-sdk?style=flat-square)
+[![NPM version](https://img.shields.io/npm/v/@shark764/commland-dielectric-js-sdk?style=flat-square)](https://img.shields.io/npm/v/@shark764/commland-dielectric-js-sdk?style=flat-square)
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 
   </p>
@@ -32,64 +32,18 @@ yarn add @2600hz/commland-dielectric-js-sdk
 ## Usage
 
 ```js
-import { capitalize, humanize } from '@2600hz/commland-dielectric-js-sdk';
+import sdk from '@2600hz/commland-dielectric-js-sdk';
 
 // ...
 
-<Text>{capitalize(headerText)}</Text>
-<Button title={humanize(buttonName)} onPress={}.... />
-```
-
-You can also import or require directly from folder
-
-```js
-const {
-  prettierBaseConfig,
-} = require('@2600hz/commland-dielectric-js-sdk/lib/prettier-config');
-
-prettierBaseConfig.jsxBracketSameLine = false;
-
-module.exports = prettierBaseConfig;
-```
-
-**Configuration files**
-You can extend any of the following configs:
-- eslint (_.eslintrc.js_)
-- prettier (_..prettierrc.js_)
-- release-it (_.release-it.js_)
-- commitlint (_commitlint.config.js_)
-- svgrrc (_.svgrrc.js_)
-- jest (_jest.config.js_)
-- lint-staged (_lint-staged.config.js_)
-- tsconfig (_tsconfig.json_)
-
-All configuration files are imported and used same way, there are just two files that need different treatment
-
-*eslint*
-Eslint file exports a function that receives the root folder
-
-```js
-const {
-  eslintBaseConfig,
-} = require('@2600hz/commland-dielectric-js-sdk/lib/eslint-config');
-
-module.exports = eslintBaseConfig(__dirname);
-```
-
-*tsconfig*
-This file must extends from any of the ts config files available
-```json
-{
-  "extends": "@2600hz/commland-dielectric-js-sdk/tsconfig.base",
-  "compilerOptions": {
-    "baseUrl": "./",
-    ...
-  },
-  "exclude": [...],
-  "include": [...],
+function openInAppBrowser() {
+  sdk.plugins.browser.openInAppBrowser({ url: 'https://www.2600hz.com/' });
 }
-  
 ```
+
+### Plugins available
+You can extend any of the following configs:
+- [Browser](https://capacitorjs.com/docs/apis/browser)
 
 ## Development
 
@@ -111,30 +65,31 @@ yarn install
 yarn
 ```
 
-**Create symlink**
+##### Create symlink
 Run the following command on package root folder, so you can consume on an app locally
 
 ```bash
 yarn link
 ```
 
-**Watch project**
+##### Watch project
 Build package whenever there is a change
 ```bash
 yarn watch
 ```
 
-**Consume the package**
+##### Consume the package
 `Both projects must be placed on same folder, otherwise won't work`
 ```bash
 yarn link @2600hz/commland-dielectric-js-sdk
 ```
 
-Build the package
+##### Build the package
 _Automatically will build the project_
 ```bash
 yarn build
 ```
+This will generate the `lib` folder, this folder will be uploaded to npm once released.
 
 ## Utilities
 
@@ -169,14 +124,14 @@ Components library uses a number of open source projects to work properly:
 
 - [Typescript](https://www.typescriptlang.org/docs/handbook/react.html) - Strongly typed programming language which builds on JavaScript
 - [NodeJs](https://nodejs.org/es/) - Allows execute javascript scripts on the terminal
-- [Luxon](https://moment.github.io/luxon/) - library for dealing with dates and times in JavaScript (better alternative than Moment.js)
+- [Capacitor](https://capacitorjs.com/) - Open source native runtime to build web native apps.
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 See the [contributing guide](CONTRIBUTING.md) to learn how to contribute to the repository and the development workflow.
 
-**Commits**
+##### Commits
 Commits must follow [conventional commit format](https://conventionalcommits.org/)
 Make sure your messages look like the following examples
 ```
@@ -198,7 +153,7 @@ Follow [Semantic Versioning 2.0.0](https://semver.org/) to update project versio
 
 Visit [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) for more examples.
 
-**Make a release**
+##### Make a release
 Run following command after your last commit/amend. Then answer with Y/N the prompt
 ```bash
 yarn release

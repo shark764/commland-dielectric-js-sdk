@@ -1,6 +1,6 @@
 import { Browser, OpenOptions } from '@capacitor/browser';
 
-export async function openMobileBrowserConference ({
+export async function openInAppBrowser ({
   url,
   windowName,
   presentationStyle,
