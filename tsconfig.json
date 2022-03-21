@@ -6,7 +6,7 @@
     "noEmit": false,
     "outDir": "lib",
     "paths": {
-      "@2600hz/commland-dielectric-js-sdk": ["./src/index"]
+      "@dfhernandez/commland-dielectric-js-sdk": ["./src/index"]
     }
   },
   "exclude": [

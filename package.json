@@ -1,8 +1,8 @@
 {
-  "name": "@2600hz/commland-dielectric-js-sdk",
+  "name": "@dfhernandez/commland-dielectric-js-sdk",
   "version": "0.1.0",
   "description": "SDK written in Javascript and Typescript to provide access to native APIs using Capacitor plugins",
-  "author": "Joris <joris@2600hz.com>, Daniel Hernandez <fhernandez@2600hz.com> (https://github.com/shark764)",
+  "author": "Joris Tirado <joris@2600hz.com>, Daniel Hernandez <fhernandez@2600hz.com> (https://github.com/shark764)",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "source": "src/index",
@@ -34,12 +34,12 @@
   "keywords": [
     "utilities"
   ],
-  "repository": "https://github.com/2600hz/commland-dielectric-js-sdk",
+  "repository": "https://github.com/shark764/commland-dielectric-js-sdk",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/2600hz/commland-dielectric-js-sdk/issues"
+    "url": "https://github.com/shark764/commland-dielectric-js-sdk/issues"
   },
-  "homepage": "https://github.com/2600hz/commland-dielectric-js-sdk#readme",
+  "homepage": "https://github.com/shark764/commland-dielectric-js-sdk#readme",
   "engines": {
     "node": ">=14"
   },
