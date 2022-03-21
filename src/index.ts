@@ -19,4 +19,4 @@ window.CapacitorSdk = capacitorSdk;
 // eslint-disable-next-line @typescript-eslint/strict-boolean-expressions
 window.CapacitorSdk = window.CapacitorSdk || {};
 
-export default capacitorSdk;
+// export default capacitorSdk;
