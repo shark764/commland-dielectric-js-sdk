@@ -3,6 +3,7 @@
   "compilerOptions": {
     "baseUrl": "./",
     "declaration": true,
+    "module": "UMD",
     "noEmit": false,
     "outDir": "lib",
     "paths": {
