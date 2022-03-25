@@ -22,7 +22,8 @@ export default [
     // UMD
     input,
     output: {
-      file: `lib/${pkgName}.min.js`,
+      // file: `lib/${pkgName}.min.js`,
+      file: pkg.main,
       format: 'umd',
       name: 'commlandMobile', // this is the name of the global object
       esModule: false,
