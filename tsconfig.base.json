@@ -12,7 +12,7 @@
     "importsNotUsedAsValues": "error",
     "isolatedModules": true,
     "lib": ["es6", "DOM", "es2016", "es2017", "ESNext"],
-    "module": "CommonJS",
+    "module": "ESNext",
     "moduleResolution": "node",
     "noFallthroughCasesInSwitch": true,
     "noEmit": true,
