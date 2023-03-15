@@ -1,3 +1,10 @@
+# [0.2.0](https://github.com/shark764/commland-dielectric-js-sdk/compare/v0.1.8...v0.2.0) (2023-03-15)
+
+
+### Features
+
+* Adding filesystem module with download file functions ([4ffc85f](https://github.com/shark764/commland-dielectric-js-sdk/commit/4ffc85ffed3192352a937c608e660b2d9fd4ed66))
+
 ## [0.1.8](https://github.com/shark764/commland-dielectric-js-sdk/compare/v0.1.7...v0.1.8) (2022-03-25)
 
 
