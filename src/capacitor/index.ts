@@ -1,5 +1,9 @@
-import * as browser from './browser';
+import * as core from './core';
+import * as device from './device';
 import * as fileSystem from './file-system';
-import * as gps from './gps';
 
-export default { browser, gps, fileSystem };
+export default {
+  fileSystem,
+  device,
+  core,
+};
