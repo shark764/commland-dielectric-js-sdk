@@ -1,12 +1,8 @@
-/* eslint-disable no-return-await */
-import { Capacitor } from '@capacitor/core';
 import {
   Filesystem,
   Directory,
   // Encoding
 } from '@capacitor/filesystem';
-
-console.log('Capacitor.getPlatform()', Capacitor.getPlatform());
 
 export const downloadFileFromUri = async ({
   uri,
@@ -54,7 +50,7 @@ export const downloadFile = async ({
   const fileReader = new FileReader();
   const fileBlob = file;
 
-  return await new Promise((resolve, reject) => {
+  const promise = await new Promise((resolve, reject) => {
     fileReader.onerror = () => {
       fileReader.abort();
       reject(new Error('Problem parsing file'));
@@ -79,4 +75,6 @@ export const downloadFile = async ({
 
     // fileReader.readAsText(file);
   });
+
+  return promise;
 };
