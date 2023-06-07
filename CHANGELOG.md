@@ -1,3 +1,10 @@
+# [0.3.0](https://github.com/shark764/commland-dielectric-js-sdk/compare/v0.2.0...v0.3.0) (2023-06-07)
+
+
+### Features
+
+* **CDL-39:** Adding device info and platform access ([b36756f](https://github.com/shark764/commland-dielectric-js-sdk/commit/b36756f0c698ced5aeef3f2fee6b4645808cc8aa))
+
 # [0.2.0](https://github.com/shark764/commland-dielectric-js-sdk/compare/v0.1.8...v0.2.0) (2023-03-15)
 
 
