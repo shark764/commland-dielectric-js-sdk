@@ -1,3 +1,5 @@
+## [0.3.1](https://github.com/shark764/commland-dielectric-js-sdk/compare/v0.3.0...v0.3.1) (2023-06-18)
+
 # [0.3.0](https://github.com/shark764/commland-dielectric-js-sdk/compare/v0.2.0...v0.3.0) (2023-06-07)
 
 
