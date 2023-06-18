@@ -1,1 +1,1 @@
-export { default as CapacitorSdk } from './capacitor';
+export { default as Sdk } from './capacitor';
