@@ -8,30 +8,36 @@
   "source": "src/index",
   "files": [
     "bin",
+    "build",
     "tools",
     "lib",
+    "tsconfig.base.json",
     "!**/__tests__",
     "!**/__fixtures__",
     "!**/__mocks__"
   ],
   "scripts": {
     "clean": "rimraf lib",
-    "build": "yarn clean && rollup -c",
+    "build": "yarn run clean && rollup -c && yarn run build:types",
+    "build:types": "tsc -t esnext --moduleResolution node -d --emitDeclarationOnly --outFile lib/index.d.ts src/index.ts",
     "dev": "rollup -c -w",
     "serve": "servor lib --reload & yarn run dev",
     "pre-commit": "lint-staged",
     "prepare": "husky install",
     "typescript": "tsc --noEmit",
-    "lint": "eslint \"**/*.{js,jsx,ts,tsx}\"",
+    "lint": "eslint \"**/*.{js,ts}\"",
     "lint:fix": "yarn lint --fix",
-    "format": "prettier --write \"**/*.+(js|jsx|ts|tsx|json)\"",
+    "format": "prettier --write \"**/*.+(js|ts|json)\"",
     "prettify": "yarn run format && yarn run lint:fix",
     "full-check": "yarn run prettify && yarn run typescript",
     "release": "release-it",
     "test": "jest --watchAll"
   },
   "keywords": [
-    "utilities"
+    "commland",
+    "dielectric",
+    "mobile",
+    "sdk"
   ],
   "repository": "https://github.com/shark764/commland-dielectric-js-sdk",
   "license": "MIT",

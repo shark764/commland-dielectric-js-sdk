@@ -5,9 +5,13 @@
     "noEmit": false,
     "paths": {
       "@dfhernandez/commland-dielectric-js-sdk": ["./src/index"]
-    }
+    },
+    "types": ["node", "jest"]
   },
   "exclude": [
+    "**/*.test.*",
+    "**/__mocks__/*",
+    "**/__tests__/*",
     "__tests__/**/*-test.ts",
     "tests",
     "dist",
