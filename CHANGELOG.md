@@ -1,3 +1,10 @@
+# [0.4.0](https://github.com/shark764/commland-dielectric-js-sdk/compare/v0.3.1...v0.4.0) (2023-07-19)
+
+
+### Features
+
+* Adding push notifications support using @capacitor/push-notifications plugin ([11c87f0](https://github.com/shark764/commland-dielectric-js-sdk/commit/11c87f08c673ed2320a1e0dea472cc1b385a202f))
+
 ## [0.3.1](https://github.com/shark764/commland-dielectric-js-sdk/compare/v0.3.0...v0.3.1) (2023-06-18)
 
 # [0.3.0](https://github.com/shark764/commland-dielectric-js-sdk/compare/v0.2.0...v0.3.0) (2023-06-07)
