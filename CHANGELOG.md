@@ -1,3 +1,10 @@
+# [0.5.0](https://github.com/shark764/commland-dielectric-js-sdk/compare/v0.4.0...v0.5.0) (2023-07-26)
+
+
+### Features
+
+* Adding capacitor/app plugin to access to device info ([a1fb7d1](https://github.com/shark764/commland-dielectric-js-sdk/commit/a1fb7d1499c7df954918e2f6392d97c3bcadcb83))
+
 # [0.4.0](https://github.com/shark764/commland-dielectric-js-sdk/compare/v0.3.1...v0.4.0) (2023-07-19)
 
 
