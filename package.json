@@ -56,6 +56,7 @@
     "@2600hz/commio-native-utilities": "^0.5.2",
     "@babel/core": "^7.17.8",
     "@babel/preset-env": "^7.16.11",
+    "@capacitor/app": "^5.0.6",
     "@capacitor/browser": "^1.0.7",
     "@capacitor/core": "^3.4.3",
     "@capacitor/device": "^4.0.0",

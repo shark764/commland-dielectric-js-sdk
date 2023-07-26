@@ -13,11 +13,14 @@ interface ListenerFuncs {
   pushNotificationActionPerformed: (notification: ActionPerformed) => void;
 }
 
+let deviceToken: string | null = null;
+
 export const addListeners = async (listenerFuncs: ListenerFuncs) => {
-  await PushNotifications.addListener(
-    'registration',
-    listenerFuncs.registration
-  );
+  await PushNotifications.addListener('registration', (token) => {
+    deviceToken = token.value;
+
+    listenerFuncs.registration(token);
+  });
 
   await PushNotifications.addListener(
     'registrationError',
@@ -54,3 +57,5 @@ export const getDeliveredNotifications = async () => {
 
   return notificationList;
 };
+
+export const getToken = () => deviceToken;
