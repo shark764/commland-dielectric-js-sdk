@@ -1,3 +1,10 @@
+# [0.6.0](https://github.com/shark764/commland-dielectric-js-sdk/compare/v0.5.0...v0.6.0) (2023-08-10)
+
+
+### Features
+
+* Adding toast notification support ([3b7c3ba](https://github.com/shark764/commland-dielectric-js-sdk/commit/3b7c3ba255901f470d828451f787acc3fb19efc9))
+
 # [0.5.0](https://github.com/shark764/commland-dielectric-js-sdk/compare/v0.4.0...v0.5.0) (2023-07-26)
 
 
