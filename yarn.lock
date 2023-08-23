@@ -926,6 +926,13 @@
   resolved "https://registry.yarnpkg.com/@bcoe/v8-coverage/-/v8-coverage-0.2.3.tgz#75a2e8b51cb758a7553d6804a5932d7aace75c39"
   integrity sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==
 
+"@capacitor-community/bluetooth-le@^3.0.1":
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/@capacitor-community/bluetooth-le/-/bluetooth-le-3.0.1.tgz#068362c4e7fbeb8dc83d8fa6c203a1201614d7c8"
+  integrity sha512-IRjurszsqKgvEiITmqEJnIAyJdPYkLf/45WaPKrCOP2c8bFYCrenBu2tdKXm8Vfh/d0ybpojK1kcEFj8M4z97w==
+  dependencies:
+    "@types/web-bluetooth" "^0.0.16"
+
 "@capacitor/app@^5.0.6":
   version "5.0.6"
   resolved "https://registry.yarnpkg.com/@capacitor/app/-/app-5.0.6.tgz#2ee02551115fd2e92dc7e81bc30a6c6fa78efa66"
@@ -1720,6 +1727,11 @@
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/@types/stack-utils/-/stack-utils-2.0.1.tgz#20f18294f797f2209b5f65c8e3b5c8e8261d127c"
   integrity sha512-Hl219/BT5fLAaz6NDkSuhzasy49dwQS/DSdu4MdggFB8zcXv7vflBI3xp7FEmkmdDkBUI2bPUNeMttp2knYdxw==
+
+"@types/web-bluetooth@^0.0.16":
+  version "0.0.16"
+  resolved "https://registry.yarnpkg.com/@types/web-bluetooth/-/web-bluetooth-0.0.16.tgz#1d12873a8e49567371f2a75fe3e7f7edca6662d8"
+  integrity sha512-oh8q2Zc32S6gd/j50GowEjKLoOVOwHP/bWVjKJInBwQqdOYMdPrf1oVlelTlyfFK3CKxL1uahMDAr+vy8T7yMQ==
 
 "@types/yargs-parser@*":
   version "21.0.0"
