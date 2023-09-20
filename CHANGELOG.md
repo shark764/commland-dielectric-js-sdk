@@ -1,3 +1,10 @@
+## [0.6.1](https://github.com/shark764/commland-dielectric-js-sdk/compare/v0.6.0...v0.6.1) (2023-09-20)
+
+
+### Bug Fixes
+
+* Downgrading app & push-notifications plugins to latest-4 ([1811b2b](https://github.com/shark764/commland-dielectric-js-sdk/commit/1811b2bbfccb7c6fca273cb0176717054bde9bc0))
+
 # [0.6.0](https://github.com/shark764/commland-dielectric-js-sdk/compare/v0.5.0...v0.6.0) (2023-08-10)
 
 
