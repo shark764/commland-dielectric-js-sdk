@@ -926,10 +926,10 @@
   resolved "https://registry.yarnpkg.com/@bcoe/v8-coverage/-/v8-coverage-0.2.3.tgz#75a2e8b51cb758a7553d6804a5932d7aace75c39"
   integrity sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==
 
-"@capacitor/app@^5.0.6":
-  version "5.0.6"
-  resolved "https://registry.yarnpkg.com/@capacitor/app/-/app-5.0.6.tgz#2ee02551115fd2e92dc7e81bc30a6c6fa78efa66"
-  integrity sha512-6ZXVdnNmaYILasC/RjQw+yfTmq2ZO7Q3v5lFcDVfq3PFGnybyYQh+RstBrYri+376OmXOXxBD7E6UxBhrMzXGA==
+"@capacitor/app@^4.1.1":
+  version "4.1.1"
+  resolved "https://registry.yarnpkg.com/@capacitor/app/-/app-4.1.1.tgz#47329e19ecc080bc2934be86566a7673e0f94e5c"
+  integrity sha512-SJcJA1rhFQyeH6eLfUEbdKkHzAwzahJNVPNXmU88fdmXpMgM2dJGzZj1vrm6e21aQq+Z4aBVLJ2RCdj92zD7wg==
 
 "@capacitor/browser@^4.0.0":
   version "4.1.1"
@@ -953,10 +953,10 @@
   resolved "https://registry.yarnpkg.com/@capacitor/filesystem/-/filesystem-4.1.4.tgz#021ef707ca199d554042ebc85151416dec07020a"
   integrity sha512-ivko1RNK4hq63xhMacq8D6D97N5/SAafTsrmY/pghYrG6Cl2SEY0+IgRu7V9/VWeN3FSplyUPucjUTAFQxXN5g==
 
-"@capacitor/push-notifications@^5.0.6":
-  version "5.0.6"
-  resolved "https://registry.yarnpkg.com/@capacitor/push-notifications/-/push-notifications-5.0.6.tgz#2128ebd7f5d8af42f3dd81d61d257c79577e7da7"
-  integrity sha512-o4/EcP13XduazhJkoVWEVrRD07YcqT9Uz0pQ48SItRNjtgDhcQW1vAEo6tSL6FVA5NkxNhJikk8TUeXobgOhEg==
+"@capacitor/push-notifications@^4.1.2":
+  version "4.1.2"
+  resolved "https://registry.yarnpkg.com/@capacitor/push-notifications/-/push-notifications-4.1.2.tgz#0c3f139cbe501d537c1360eac0f05b696b02a0da"
+  integrity sha512-ok6CGvedwK1azmf8VWhrNlg6jhi4PFz3HoyS0GNE2ew7+JGnxN77sgK5q1TVzdkge+vkqipO6uu5bD1xfj/pWQ==
 
 "@capacitor/toast@^4.0.0":
   version "4.1.0"
