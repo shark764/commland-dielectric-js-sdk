@@ -926,42 +926,37 @@
   resolved "https://registry.yarnpkg.com/@bcoe/v8-coverage/-/v8-coverage-0.2.3.tgz#75a2e8b51cb758a7553d6804a5932d7aace75c39"
   integrity sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==
 
-"@capacitor/app@^4.1.1":
-  version "4.1.1"
-  resolved "https://registry.yarnpkg.com/@capacitor/app/-/app-4.1.1.tgz#47329e19ecc080bc2934be86566a7673e0f94e5c"
-  integrity sha512-SJcJA1rhFQyeH6eLfUEbdKkHzAwzahJNVPNXmU88fdmXpMgM2dJGzZj1vrm6e21aQq+Z4aBVLJ2RCdj92zD7wg==
+"@capacitor/app@^5.0.6":
+  version "5.0.6"
+  resolved "https://registry.yarnpkg.com/@capacitor/app/-/app-5.0.6.tgz#2ee02551115fd2e92dc7e81bc30a6c6fa78efa66"
+  integrity sha512-6ZXVdnNmaYILasC/RjQw+yfTmq2ZO7Q3v5lFcDVfq3PFGnybyYQh+RstBrYri+376OmXOXxBD7E6UxBhrMzXGA==
 
-"@capacitor/browser@^4.0.0":
-  version "4.1.1"
-  resolved "https://registry.yarnpkg.com/@capacitor/browser/-/browser-4.1.1.tgz#ef7f705bda5c63c5497d4cb3c9108bd6aa9db908"
-  integrity sha512-RJKNeRiLm6X668X75YiPN/9t3z1pxVEPjIhLM/AtWAEsHUb8bjroQQ3WGdW/30Wa60a7ywiw3YLqWctfRaYyFw==
-
-"@capacitor/core@^4.0.0":
-  version "4.8.1"
-  resolved "https://registry.yarnpkg.com/@capacitor/core/-/core-4.8.1.tgz#6fac7ed09c8e1296cf3a5821356972b84736d1c8"
-  integrity sha512-GIUGw1P2Iyh4jb8ZAIWRPtR2zH6ARcpwN5pn/vmIJiTujQBMQmF62s5L3m4XMQSVKlbw8iCPi/YKjlUL+EjKhA==
+"@capacitor/core@^5.4.1":
+  version "5.4.1"
+  resolved "https://registry.yarnpkg.com/@capacitor/core/-/core-5.4.1.tgz#5c90f5df3d60e752c5de137de5653751fefe1752"
+  integrity sha512-QG9gORuxw2WNcVpLHT1W3LzACOJvFWRuHcz4b9edzxehSELqiSQ4DoGWLp4PuNBBp2oV/fGA4FMNmfZ1jIAAWg==
   dependencies:
     tslib "^2.1.0"
 
-"@capacitor/device@^4.0.0":
-  version "4.1.0"
-  resolved "https://registry.yarnpkg.com/@capacitor/device/-/device-4.1.0.tgz#b9f73368f6f6f1194181bcd7bc4b8a021c67f33e"
-  integrity sha512-BlcYb6e6m+vC1SxeyUDIUGfuNXdKEcpFPDCs/kxk2SByFc/BkvXeoy4NjY4qmTderGELofX9bta5Iy9JV7rGUg==
+"@capacitor/device@^5.0.6":
+  version "5.0.6"
+  resolved "https://registry.yarnpkg.com/@capacitor/device/-/device-5.0.6.tgz#11322a9c737196f2df8f82abbe6d1a5b32e35fb7"
+  integrity sha512-tmjK0H8IKbDLMcmzZzJPbV+9yLkKJ76QOdz4A7fZAOYx2GnFHsFngxldq/wKotGAJuDX/ih3ZzHNrzVguzlv2g==
 
-"@capacitor/filesystem@^4.1.4":
-  version "4.1.4"
-  resolved "https://registry.yarnpkg.com/@capacitor/filesystem/-/filesystem-4.1.4.tgz#021ef707ca199d554042ebc85151416dec07020a"
-  integrity sha512-ivko1RNK4hq63xhMacq8D6D97N5/SAafTsrmY/pghYrG6Cl2SEY0+IgRu7V9/VWeN3FSplyUPucjUTAFQxXN5g==
+"@capacitor/filesystem@^5.1.4":
+  version "5.1.4"
+  resolved "https://registry.yarnpkg.com/@capacitor/filesystem/-/filesystem-5.1.4.tgz#6e3278f4c47c72416d586367889736b576113ef5"
+  integrity sha512-10EM1KvFMs+pTzxkcflspzxBWcX9sOnS9nTP5Afjr5hn4OxLrwTFySw2Z12Uv6jdN4OnhY3jXtDKXPljXvXILg==
 
-"@capacitor/push-notifications@^4.1.2":
-  version "4.1.2"
-  resolved "https://registry.yarnpkg.com/@capacitor/push-notifications/-/push-notifications-4.1.2.tgz#0c3f139cbe501d537c1360eac0f05b696b02a0da"
-  integrity sha512-ok6CGvedwK1azmf8VWhrNlg6jhi4PFz3HoyS0GNE2ew7+JGnxN77sgK5q1TVzdkge+vkqipO6uu5bD1xfj/pWQ==
+"@capacitor/push-notifications@^5.1.0":
+  version "5.1.0"
+  resolved "https://registry.yarnpkg.com/@capacitor/push-notifications/-/push-notifications-5.1.0.tgz#6c8e2236610e9a25eb4a41a37d9dc0a16f1162d2"
+  integrity sha512-Laxi5TQbwTqQFNJZdyyfJJqb+OVZz+0VRtW4uhM+u5TKWuXCYw/yrctXuIpG+VFUptvtPG7ic7+0WcBs+sQ17Q==
 
-"@capacitor/toast@^4.0.0":
-  version "4.1.0"
-  resolved "https://registry.yarnpkg.com/@capacitor/toast/-/toast-4.1.0.tgz#1710163aa128f8640d2237587cfb49ad4ee880c5"
-  integrity sha512-hU3GoA1dT+dsMuDOlEeiaU2mdd4VCLvIzgbp7Vk0Mqy9tbg++W4t7hcewlawzJGs6FxH59rIekf2lz7m4ir33w==
+"@capacitor/toast@^5.0.6":
+  version "5.0.6"
+  resolved "https://registry.yarnpkg.com/@capacitor/toast/-/toast-5.0.6.tgz#3b85bf03db2d9f7208a81be678bda689625a2acb"
+  integrity sha512-djkRHVT8YtLJC1vvOnDU3EfAHfQYqAD7LYEXmSmhYuTnXRIggX93m/NkazwLnnpr95kDbs2VVPM/J6dqqYuJng==
 
 "@cnakazawa/watch@^1.0.3":
   version "1.0.4"
